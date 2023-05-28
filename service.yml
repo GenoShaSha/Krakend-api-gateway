@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: krakend-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
   - name: http
     port: 8000
