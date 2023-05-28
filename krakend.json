@@ -56,6 +56,23 @@
           "disable_host_sanitize": false
         }
       ]
+    },
+    {
+      "endpoint": "/matches",
+      "method": "GET",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/matches",
+          "encoding": "json",
+          "sd": "static",
+          "method": "GET",
+          "host": [
+            "10.245.80.243"
+          ],
+          "disable_host_sanitize": false
+        }
+      ]
     }
   ]
 }
