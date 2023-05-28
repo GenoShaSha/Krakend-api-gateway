@@ -68,7 +68,7 @@
           "sd": "static",
           "method": "GET",
           "host": [
-            "10.245.80.243"
+            "10.245.106.207"
           ],
           "disable_host_sanitize": false
         }
