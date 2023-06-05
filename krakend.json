@@ -90,6 +90,23 @@
           "disable_host_sanitize": false
         }
       ]
+    },
+    {
+      "endpoint": "/register",
+      "method": "POST",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/register",
+          "encoding": "json",
+          "sd": "static",
+          "method": "POST",
+          "host": [
+            "10.245.171.159"
+          ],
+          "disable_host_sanitize": false
+        }
+      ]
     }
   ]
 }
