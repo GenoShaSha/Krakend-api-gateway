@@ -143,12 +143,12 @@
       ]
     },
     {
-      "endpoint": "/matches",
+      "endpoint": "/makematch",
       "method": "POST",
       "output_encoding": "json",
       "backend": [
         {
-          "url_pattern": "/matches",
+          "url_pattern": "/makematch",
           "encoding": "json",
           "sd": "static",
           "method": "POST",
