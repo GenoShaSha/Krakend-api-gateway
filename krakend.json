@@ -195,14 +195,14 @@
     },
     {
       "endpoint": "/updatematch",
-      "method": "PUT",
+      "method": "POST",
       "output_encoding": "json",
       "backend": [
         {
           "url_pattern": "/updatematch",
           "encoding": "json",
           "sd": "static",
-          "method": "PUT",
+          "method": "POST",
           "host": [
             "10.245.106.207"
           ],
