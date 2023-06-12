@@ -158,6 +158,23 @@
           "disable_host_sanitize": false
         }
       ]
+    },
+    {
+      "endpoint": "/getadoptermatches",
+      "method": "POST",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/getadoptermatches",
+          "encoding": "json",
+          "sd": "static",
+          "method": "POST",
+          "host": [
+            "10.245.106.207"
+          ],
+          "disable_host_sanitize": false
+        }
+      ]
     }
   ]
 }
