@@ -23,7 +23,7 @@
       "allow_origins": [
         "http://192.168.99.100:3000",
         "http://localhost:3000",
-        "https://bemypet.vercel.app",
+        "https://bemypet.vercel.app"
       ],
       "allow_methods": [
         "POST",
