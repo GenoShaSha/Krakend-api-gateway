@@ -114,6 +114,16 @@
       "endpoint": "/animals",
       "method": "GET",
       "output_encoding": "json",
+      "extra_config": {
+        "auth/validator": {
+            "alg": "HS256",
+            "jwk_url": "https://jsonkeeper.com/b/Z2LR",
+            "cache": false,
+	    "disable_jwk_security": true,
+	    "operation_debug": true
+ 
+         }
+       },
       "backend": [
         {
           "url_pattern": "/animals",
