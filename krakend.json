@@ -158,6 +158,16 @@
       "endpoint": "/makematch",
       "method": "POST",
       "output_encoding": "json",
+      "extra_config": {
+        "auth/validator": {
+            "alg": "HS256",
+            "jwk_url": "https://jsonkeeper.com/b/6S18",
+            "cache": false,
+	    "disable_jwk_security": true,
+	    "operation_debug": true
+ 
+         }
+       },
       "backend": [
         {
           "url_pattern": "/makematch",
@@ -175,6 +185,16 @@
       "endpoint": "/getadoptermatches",
       "method": "POST",
       "output_encoding": "json",
+      "extra_config": {
+        "auth/validator": {
+            "alg": "HS256",
+            "jwk_url": "https://jsonkeeper.com/b/6S18",
+            "cache": false,
+	    "disable_jwk_security": true,
+	    "operation_debug": true
+ 
+         }
+       },
       "backend": [
         {
           "url_pattern": "/getadoptermatches",
@@ -192,6 +212,16 @@
       "endpoint": "/getsheltermatches",
       "method": "POST",
       "output_encoding": "json",
+      "extra_config": {
+        "auth/validator": {
+            "alg": "HS256",
+            "jwk_url": "https://jsonkeeper.com/b/6S18",
+            "cache": false,
+	    "disable_jwk_security": true,
+	    "operation_debug": true
+ 
+         }
+       },
       "backend": [
         {
           "url_pattern": "/getsheltermatches",
@@ -209,6 +239,16 @@
       "endpoint": "/updatematch",
       "method": "PUT",
       "output_encoding": "json",
+      "extra_config": {
+        "auth/validator": {
+            "alg": "HS256",
+            "jwk_url": "https://jsonkeeper.com/b/6S18",
+            "cache": false,
+	    "disable_jwk_security": true,
+	    "operation_debug": true
+ 
+         }
+       },
       "backend": [
         {
           "url_pattern": "/updatematch",
